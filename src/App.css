@@ -15,20 +15,13 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -97,8 +90,8 @@
 
 .tag-notation {
   transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg); 
-  -moz-transform: rotate(-90deg);   
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
   float: left;
   background: #263015;
   width: 34px;
@@ -115,7 +108,7 @@
   height: 35px;
   border-radius: 0;
   margin-left: 10px;
-  box-shadow: 0px 0px 1px 1px rgba(0,0,0,.1);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .1);
 }
 
 .single-todo-del {
@@ -126,9 +119,6 @@
 .single-todo-edit {
   background: green;
   color: white;
-}
-
-.single-todo-edit {
   margin-right: 20px;
 }
 
@@ -195,11 +185,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
-  /* position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 20px 50px; */
 }
 
 .nav-main {
