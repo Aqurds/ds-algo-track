@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +43,213 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.single-todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.checkbox-todo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 55%;
+}
+
+.single-todo-ul {
+  margin: 50px 0px 20px;
+  padding: 0;
+}
+
+.single-todo-li {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  background: rgba(173, 216, 230, .3);
+  text-align: left;
+}
+
+.single-todo-checkbox {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.single-todo-title {
+  width: 60%;
+  text-align: left;
+}
+
+.single-todo-tag {
+  font-size: 12px;
+  background: darkolivegreen;
+  padding: 8px 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .2);
+  color: white;
+  position: relative;
+  padding-left: 35px;
+}
+
+.tag-notation {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);   
+  float: left;
+  background: #263015;
+  width: 34px;
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  text-align: center;
+  padding: 3px 0px;
+}
+
+.single-todo-del,
+.single-todo-edit {
+  width: 70px;
+  height: 35px;
+  border-radius: 0;
+  margin-left: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.single-todo-del {
+  background: tomato;
+  color: white;
+}
+
+.single-todo-edit {
+  background: green;
+  color: white;
+}
+
+.single-todo-edit {
+  margin-right: 20px;
+}
+
+.edit-todo {
+  width: 98%;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-todo-title,
+.add-todo-tag {
+  height: 30px;
+  border: 1px solid lightblue;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.add-todo-title-example,
+.add-todo-tag-example {
+  font-size: 12px;
+  background: lightblue;
+  color: darkgreen;
+}
+
+.add-todo-submit {
+  background: lightcyan;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.add-todo-submit:hover {
+  background: #003636;
+  color: white;
+}
+
+.empty-field-warning {
+  color: tomato;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.single-todo-operation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  /* position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 20px 50px; */
+}
+
+.nav-main {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-main li {
+  float: left;
+}
+
+.nav-main li a {
+  background: aliceblue;
+  padding: 10px 20px;
+  color: #213547;
+  border-bottom: 2px solid darkcyan;
+  transition: all 0.3s;
+}
+
+.nav-main li a:hover {
+  background: lightblue;
+  border-bottom: 2px solid darkgray;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo-main {
+  font-size: 34px;
+}
+
+.logo-main-text {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.about-wrapper {
+  height: 1000px;
+}
+
+.profile-wrapper {
+  height: 1000px;
+}
+
+.login-wrapper {
+  height: 1000px;
+}
+
+.error-wrapper {
+  height: 1000px;
 }
