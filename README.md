@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="./assets/image/book-icon.png" alt="logo" width="140"  height="auto" /> -->
+  <img src="./src/assets//logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Ds-Algo Track</b></h3>
@@ -56,8 +56,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Perform basic math caltulation**
-- **Represents an interface**
+
+- **Add coding problem with category**
+- **Edit coding problem**
+- **Delete coding problem**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,8 +100,8 @@ Clone this repository to your desired folder:
 
 
 ```
-  git https://github.com/Aqurds/math-magician.git
-  cd math-magician
+  git https://github.com/Aqurds/ds-algo-track
+  cd ds-algo-track
 ```
 
 ### Install
@@ -130,8 +132,9 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add advanced math operations**
-- **Show history of calculations**
+- **Add 24hours time tracking to solve 4 or custom limit problem**
+- **Show history of previous problem**
+- **User dashboard**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +144,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Aqurds/ds-algo-track/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
